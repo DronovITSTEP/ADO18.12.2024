@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Storage" Class="CountriesDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Storage;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="ADO18._12._2024.Part3.Properties.Settings" SettingsPropertyName="StorageConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Countries" Member="Countries">
+    <Type Name="Countries">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NameCountry" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="NameCapital" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="CountPeople" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Area" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PartOfWolrd" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
